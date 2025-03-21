@@ -12,7 +12,7 @@ if not url:
 else:
     print(f"URL carregada: {url}")
 
-
+# URL=https://www.youtube.com/watch?v=7QU1nvuxaMA
 
 yt = YouTube(url)
 
