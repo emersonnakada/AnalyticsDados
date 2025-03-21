@@ -8,7 +8,7 @@ categorias = ["Grãos", "Massas", "Açúcares", "Bebidas", "Laticínios"]
 dados = {
     "ID": list(range(1, 11)),
     "Produto": produtos,
-    "Categoria": [randwom.choice(categorias) for _ in range(10)],
+    "Categoria": [random.choice(categorias) for _ in range(10)],
     "Quantidade": [random.randint(10, 100) for _ in range(10)],
     "Preço Unitário (R$)": [round(random.uniform(2.5, 15.0), 2) for _ in range(10)]
 }
@@ -20,3 +20,5 @@ df = pd.DataFrame(dados)
 df.to_excel("estoque.xlsx", index=False)
 
 print("Arquivo 'estoque.xlsx' criado com sucaesso!")
+ 
+ 
