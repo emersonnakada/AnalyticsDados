@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 
 /home/emersonnakada/AnalyticsDados/Dados/plugins/YoutubeExtrator/files
+.idea/
