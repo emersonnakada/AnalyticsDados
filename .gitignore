@@ -172,5 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
+.idea/AnalyticsDados.iml
 /home/emersonnakada/AnalyticsDados/Dados/plugins/YoutubeExtrator/files
