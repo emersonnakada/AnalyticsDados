@@ -1,0 +1,19 @@
+ABORDAGEM DE BD
+
+1 - AUTO-DESCRITIVA
+2 - ISOLAMENTO e ABSTRAÇÃO
+MULTIPLAS VISOES
+
+COMPARTILHAMENTO
+TRANSAÇÃO MULTIUSER
+
+
+
+
+1 - AUTO-DESCRIÇÃO
+        Traz consigo a descrição da estrutura e contraisn, DB SCHEMA - METADADOS E SCHEMA
+        - NAO TEM ISSO EM NoSql
+        Essa estrurura é definida pelo DBA!  
+    
+2 - ISOLAMENTO e ABSTRAÇÃO     
+    

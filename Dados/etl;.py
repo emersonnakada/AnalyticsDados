@@ -7,7 +7,15 @@ from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 import os
 import psycopg2
-
+import psycopg2.extras
+import uuid
+from sqlalchemy import create_engine, text
+from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy import create_engine, text
+import os
+import logging
+import psycopg2.extras
+import uuid
 # Pegando as configurações do banco destino no .env
 load_dotenv("dags/projects/etl_extracao_api_frete/src/.env")
 
